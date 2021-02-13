@@ -5,7 +5,7 @@ if(!$login){header("Location: {$scale_uri}");$link->close(); die;}
 $prefixrelacio="2020_Empresa_"."$ID_Empresa".'_';
 // $dies="select data from  {$prefixrelacio}index_relacio where data > curdate()-8 and data < curdate()  group by data";
 
-$dies="select data from  {$prefixrelacio}index_relacio where data >='2020/01/01' and data <= '2020/12/01'  group by data";
+$dies="select data from  {$prefixrelacio}index_relacio where data >='2020/01/01' and data <= '2020/12/31'  group by data";
 // $dies="select data from  {$prefixrelacio}index_relacio where data >='2020/12/16' and data <= curdate() group by data";
 echo $dies;
 br();
