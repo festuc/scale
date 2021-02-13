@@ -1,0 +1,387 @@
+H1 {
+	font-family:'Indie Flower',Verdana, serif;
+	font-size: 20pt;
+	background-color:transparent;
+	color: #c7ff5d;
+	text-align: center;
+	/*margin-top: 8mm;*/
+	text-shadow: #ffcc74 2px 3px 5px;
+}
+
+/* Estilo para la cabecera de nivel 2 */
+H2 {
+	font-family:Verdana,sans-serif;
+	font-size:16pt;
+	background-color:transparent;
+	color:white;
+}
+.row {
+  width: 100%;
+  text-align: center; /*/ center the content of the container*/
+}
+.rowimparell {
+  /*width: 100%;*/
+    background-color:#c7ff5d;
+  text-align: center; /*/ center the content of the container*/
+}
+
+.block {
+  /*width: 6%;*/
+  display: inline-block; /* display inline with abality to provide width/height*/
+  text-align: center;
+}
+.blockllarg {
+/*   width: 10%; */
+    width:130px;
+  display: inline-block; /* display inline with abality to provide width/height*/
+  text-align: left;
+}
+/*Estil per els coomemtaris*/
+address{
+	font-family:Times, Verdana,sans-serif;
+	font-size:10pt;
+	background-color:transparent;
+	color:#000077
+	}
+.peu{
+    position:fixed;
+    bottom:0px;
+    right:1px;
+	font-family:Times, Verdana,sans-serif;
+    font-style: italic;
+	font-size:10pt;
+	background-color:transparent;
+	color:#555577;
+	text-shadow: #ffcc74 2px 3px 5px;
+	}
+.sortir{
+    position:fixed;
+    bottom:0px;
+    left:1px;
+	font-family:Times, Verdana,sans-serif;
+    font-style: italic;
+	font-size:20pt;
+	background-color:black;
+	color:#cccccc;
+	text-shadow: #ffcc74 2px 3px 5px;
+	}
+
+			/* Capçalera de nivell 3 */
+H3 {
+	font-family:Verdana,Comic Sans MS,sans-serif;
+	font-size:13pt;
+	color:#004077;
+	/*line-height:1;*/
+	background-color:transparent;
+	/*margin-top: 3mm*/
+
+}
+H4 {
+	font-family:Times, Arial-Bold,Comic Sans MS,sans-serif;
+	font-size:12pt;
+	color:#000077;
+	line-height: 1;
+	background-color:transparent;
+	margin-top: 3mm
+
+}
+H5 {
+	font-family:Arial-Bold ms,sans-serif;
+	font-size:10pt;
+	color:white;
+	line-height: 01;
+	background-color:transparent;
+	margin-top: 5mm
+
+}
+h6 {
+	font-family:Times, Arial-Bold ms,sans-serif;
+	font-size:9pt;
+	color:#000077;
+	line-height:1;
+	background-color:transparent;
+
+
+}
+/*			Els links  			*/
+A:link 		{background-color:transparent;
+		text-decoration: none;
+		color: #FFFFFF;}
+A:visited 	{text-decoration: none;
+		background-color:transparent;
+		color: #ffffff;}
+A:hover 	{background-color:transparent;
+		text-decoration: none;
+		color: red}
+A:active 	{text-decoration: none;
+		background-color:transparent;
+		color: #006666;}
+
+
+.cookie-bar {
+  position: fixed;
+  width: 100%;
+bottom: 0;
+right: 0;
+left: 0;
+height: 12px;
+text-align: center;
+line-height: 12px;
+background-image: linear-gradient(to right, yellow,red,yellow,red,yellow,red,yellow,red,yellow);
+color: black;
+font-size: 9px;
+font-family: "verdana", sans-serif;
+font-weight: 75%;
+transition: .8s;
+animation: slideIn .8s;
+    animation-delay: 0s;
+animation-delay: .8s;
+ .message {
+    white-space: nowrap;
+    text-shadow: 0 1px 0 darken(red, 10%);
+    @media (max-width: 767px){
+      display: none;
+    }
+  }
+  .mobile {
+    display: none;
+    @media (max-width: 767px){
+      display: inline-block;
+    }
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.close-cb {
+  border: none;
+  color: black;
+  background: darken(red, 20%);
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,.2);
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  /*font-weight: bold;*/
+  &:hover {
+    background: darken(red, 10%);
+  }
+}
+.checkbox-cb {
+  display: none;
+  &:checked + .cookie-bar {
+    transform: translateY(-50px);
+  }
+}
+a {
+  color: rgb(92, 242, 255);;
+}
+.caixa {
+    position:absolute;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+    top:0px;
+    left:0px;
+width:100%;//596px;
+height:100%;950px;
+font-size: 18px; 
+/* font-weight: 16px;  */
+text-align:  center; 
+background: #889ccf; 
+margin:0px; 
+overflow: hidden; 
+padding: 0px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 0px solid #5878ca;
+}
+body{
+    display:block;
+    margin:4px;
+    color:#ecede4;
+    background-color:black;
+}
+.caixacodi{
+    display: inline;
+    width:580px;
+    height:115px;
+    font-size:100px;
+    position:absolute;
+    top:5px;
+    left:5px;
+    background:#7455ca;
+/*     padding: 12px; */
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+.pes{
+	display: inline;
+    width:580px;
+    height:125px;
+    font-size:100px;
+    position:absolute;
+    top:125px;
+    left:5px;
+    text-align:right;
+    background:#7455ca;
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+.caixapreu{
+    display: inline;
+    width:580px;
+    height:120px;
+    position:absolute;
+    top:250px;
+    font-size:100px;
+    left:5px;
+    text-align:right;
+    background:#7455ca;
+/*     padding: 12px;  */
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+.caixatlinea{
+    display: inline;
+    width:580px;
+    height:120px;
+    position:absolute;
+    top:375px;
+    font-size:100px;
+    left:5px;
+    text-align:right;
+    background:#7455ca;
+/*     padding: 12px;  */
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+
+input{
+    vertical-align:super;
+    font-size:70px;
+    text-align:right;
+}
+.caixadescripcio{
+    display: table-cell;
+    width:580px;
+    height:211px;
+    position:absolute;
+    top:500px;
+    left:5px;
+    font-size:70px;
+    text-align:center;
+    line-height: 0.97;
+    background:#7455ca;
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+.Descripcio { 
+    display:table-cell; 
+	/*text-aling: center;*/
+	vertical-align:middle; width:580px;  height:211px
+ }
+.caixainfo{
+  display: absolute;
+    width: 580px;
+    height: 26px;
+    position: absolute;
+    top: 300px;
+    left: 5px;
+    text-align: center;
+    background: #131313;
+
+/* padding: 12px; */
+
+border-radius: 35px 0px 35px 0px;
+
+-moz-border-radius: 35px 0px 35px 0px;
+
+-webkit-border-radius: 35px 0px 35px 0px;
+
+border: 2px solid
+
+    #5878ca;
+
+}
+.select-css {
+	display: inline;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #444;
+	line-height: 1.3;
+	padding: .6em 1.4em .5em .8em;
+	width: 100%;
+	vertical-align: middle;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: .5em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+	  linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+	display: none;
+}
+.select-css:hover {
+	border-color: #888;
+}
+.select-css:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.select-css option {
+	font-weight:normal;
+}
+Additionally, we recommend adding some rules for right-to-left language support, and a clear disabled state:
+
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css {
+	background-position: left .7em top 50%, 0 0;
+	padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select-css:disabled, .select-css[aria-disabled=true] {
+	color: graytext;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+	  linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+}
+.select-css:disabled:hover, .select-css[aria-disabled=true] {
+	border-color: #aaa;
+}
