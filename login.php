@@ -14,10 +14,10 @@ It ask just one time to mariadb server for that info.
 ini_set('display_errors', 0);
 date_default_timezone_set('Europe/Andorra');
 require_once('../../keys.php');
-require_once('phpgeneral/estil.php');
-require_once('phpgeneral/taula.php');
-require_once('phpgeneral/mysqli.php');
-require_once('phpgeneral/lib.php');
+require_once('estil.php');
+require_once('taula.php');
+require_once('mysqli.php');
+require_once('lib.php');
 require_once('vars.php');
 session_start();
 // if($_SESSION['user']=='over')$old_error_handler = set_error_handler("myErrorHandler");
