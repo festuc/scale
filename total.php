@@ -87,13 +87,12 @@ if($r['phone']!=''){
 // 	die;
 }
 if(($ID_Empresa==2)&&($NEW_tipus_relacio==4)){
-// 	debugtelegram("imprimeixo una copia de la proforma");
-	exec ("lp /https/ametlles.tulsa.eu/html/scale/pdf/{$r['uuid']}}pdf -d figueres");
+	exec ("lp {$_SERVER['DOCUMENT_ROOT']}/scale/pdf/{$r['uuid']}}pdf -d figueres");
 }
 if(($ID_Empresa==2)&&($NEW_tipus_relacio==2)){
-	exec ("lp /https/ametlles.tulsa.eu/html/scale/pdf/{$r['uuid']}}pdf -d figueres");
-	exec ("lp /https/ametlles.tulsa.eu/html/scale/pdf/{$r['uuid']}}pdf -d figueres");
-// 	echo "he impres? ssh root@localhost \"lp /https/ametlles.tulsa.eu/html/scale/pdf/{$r['uuid']}.pdf -d figueres\" ";die;
+	exec ("lp {$_SERVER['DOCUMENT_ROOT']}/html/scale/pdf/{$r['uuid']}}pdf -d figueres");
+	exec ("lp {$_SERVER['DOCUMENT_ROOT']}/html/scale/pdf/{$r['uuid']}}pdf -d figueres");
+// 	
 }
 if (correuvalid($r['email'])){
 	$mail = new PHPMailer(true);
